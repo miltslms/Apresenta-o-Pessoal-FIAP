@@ -1,0 +1,106 @@
+/* importar fonte do google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regra  */
+body{
+    font-family: 'Urbanist', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    font-weight: 900;
+    
+    
+}
+
+
+/* Header Page */
+.header-top{
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    background-color: rgb(32, 33, 36);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+   }
+
+.header-nav ul{
+    display: flex;
+}
+
+.header-nav li{
+    margin: 0 5px;
+}
+/* Fim Header Page */
+
+/* hero */
+.hero{
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: rgb(41, 42, 45);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    text-align: center;
+    }
+.hero-title{
+    margin-bottom: 10px;
+    font-size: 8vmin;
+}
+
+.hero-sub{
+    margin-bottom: 10px;
+    font-size: 6vmin;
+}
+
+.nav-link ul{
+    display: flex;
+}
+.nav-link li{
+    margin: 100px 150px;
+
+}
+
+.hero-link{
+    font-size: 3vmin;
+    border: 1px solid rgb(212, 203, 248);
+    padding: 12px 30px;
+    border-radius: 50px;
+    background-color: transparent;
+    font-weight: 700;
+    transition: .5s;
+    }
+
+.hero-link:hover{
+    background-color: rgb(212, 203, 248);
+
+    }
+.hero-person{
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: rgb(41, 42, 45);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    text-align: center;
+}
+.hero-person p{
+    padding-top: 20px;
+}
+
+/* hero */
